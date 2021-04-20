@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cyber;Nucleo</title>
+  <!-- CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link href="css/all.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+<style type="text/css" media="screen">
+.foto{
+  width: 400px;
+  height: 300px;
+
+}  
+</style>
+</head>
+<body id="page-top">
+  <!-- Pagina -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/team/banner.png" width="250" height="50" class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="icon-menu"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.php">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="bitacora.php">Bitacora Internauta</a
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="tutoriales.php">Tutoriales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="hobbies.php">Pasatiempos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#equipo">Contactos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger"><p>Fecha:<?php echo say_year();?></p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+      </div>
+    </div>
+  </header>
+  <!-- Informacion -->
+  <section class="bg-light page-section" id="info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Publicaciones</h2>
+          <h3 class="section-subheading text-muted"> Recomendaciones || Paginas || Reseñas</h3>
+        </div>
+      </div>
+      <!--div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid foto" src="img/portfolio/privacidad.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Guia de Privacidad de Internet</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid foto" src="img/portfolio/bitchute.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Bitchute: ¿Una nueva alternativa?</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid foto" src="img/portfolio/retro.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Reseña Internauta: RetroAchievements.org</h4>
+          </div>
+        </div>
+        </div>
+        <!--<div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid foto" src="img/portfolio/metodologia.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>¿Metodologías?</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid foto" src="img/portfolio/roles.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>¿Cuáles son los Principales roles en SCRUM?</h4>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+              </div>
+            </div>
+            <img class="img-fluid foto" src="img/portfolio/fases.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>¿Cuáles son las Fases de la Ingeniería de Software?</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+<br>
+<br>
+<br>
+<!-- Equipo -->
+<section class="bg-light page-section" id="equipo">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Creador</h2>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/zynk.png" alt="">
+            <h4>Zynk</h4>
+            <p class="text-muted">[Tec. en Informatica || RetroGamer || Intento de coleccionista.]</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/ciberneet">
+                  <i class="icon-twitter-squared"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCRX4QmnZftu3yx8_nrgqM0w">
+                  <i class="icon-youtube-play"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/ciberneet">
+                  <i class="icon-github-circled"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+<footer id="footer" class="page-footer font-small teal pt-4 footer">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <hr class="clearfix w-100 d-md-none pb-3">
+    </div>
+  </div>
+  <div class="footer-copyright text-center footer py-3">&copy; Cyber;Nucleo 2020</div>
+</footer>
+<!-- Footer -->
+  <!-- Modal 1 -->
+  <!--div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Guia de Privacidad de Internet</h2>
+               <img class="img-fluid d-block mx-auto" src="img/portfolio/privacidad.jpg" alt="">
+                <p>La privacidad en Internet, ha sido una de las principales preocupaciones de los usuarios al momento de acceder en ella, 
+                y más aun en estos tiempos donde las grandes corporaciones digitales en vez dar un uso responsable de nuestros datos, 
+                estos los vende a otras corporaciones o peor se lo da a agencias gubernamentales, para que estas no les cobre impuestos.</p>
+                <br>
+                <p>Actualmente los Internautas buscan software alternativo ó libre, para que estos les brinden el servicio que los medios mainstream no les ofrecen.  
+                Pero el problema es que no todo software libre es estable y a veces traen virus ó no ofrece lo que el usuario deseaba.  Por eso hice este video, 
+                esto será una “especie” de guía para los usuarios que quieren comenzar esta experiencia de la privacidad en Internet</p>
+                <br>
+                <p>Pero entiendan, esto no los ayudara a ser invisibles en Internet, más bien esto les ayudara a disminuir la cantidad de 
+                migajas que dejamos al momento de navegar en la web, y esto les hará más difícil a los rastreadores en saber que pagina web 
+                visitamos o buscamos, para ser literalmente invisibles en Internet es no navegar en Internet… Si, es gracioso pero es verdad.</p>
+                <br>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/browsers2.png" alt="">
+                <br>
+                <p>Volviendo al tema, estos son los navegadores que ustedes deben empezar a utilizar. Pero como novatos recomiendo estos dos 
+                Pale moon e Iridium, ambos son navegadores muy estables, uno es basado en chromium (Iridium) y otro es basado en mozilla (PaleMoon), 
+                no tiene ninguna afiliación o lazos con la empresa Mozila y Google, esto hace que estos navegadores sean proyectos independientes.
+                Y además no consumen muchos recursos del computador, es más optimizado y ligero al momento de ser ejecutado en la computadora, y 
+                también es muy personalizable con su catalogo de extensiones y plugins.</p>
+                <br>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/buscadores.png" alt="">
+                <p>Los buscadores que yo recomiendo es el buscador “Searx.me”, este buscador esta bajo licencia GNU es decir es software libre. 
+                Este no comparte la Dirección IP de los usuarios o el historial con los motores de búsqueda, las cookies están bloqueadas y lo mejor puedes personalizar la configuración del navegador.
+                Si usas el navegador TOR, puedes usar searx como buscador ya que este te muestra direcciones onion de las paginas que buscas.
+                Otro buscador que cumple en verdad con la palabra privacidad, es el buscador YaCy, utiliza una red p2p como infraestructura… Si, 
+                así como lo hace Ares para intercambiar archivos, YaCy lo hace con las búsquedas en Internet y no hay un servidor central de control</p>
+                <br>
+                <p>Ya tenemos los navegadores y buscadores, ahora vamos con las extensiones que nos ayudara a no dejar muchas migajas en nuestra navegación en Internet.</p>
+                <br>
+                <p>Self-Destructing Cookies: Esta extensión destruye las cookies que se alojan en el disco local cuando cerramos las pestañas del navegador, y tambien nos protege de zombie-cookies y ventanas cargadas de trackers.</p>
+                <p>Ublock Origin: Extensión que bloquea todo tipo de ads, scripts, iframes y facebook… En la sección de “lista de filtros” y “configuración” podemos configurarlo a nuestro gusto para que bloquee ads de otras regiones 
+                del mundo (en caso de que visitemos una página de otra región).</p>
+                <br>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/buscadores.png" alt="">
+                <p>Y por ultimo quería agregar que Tor es una red de proxy, no es anónimo solo porque si, si usas el Tor para conectarte a Facebook, Gmail o cualquier red social en la que estás obligado a dar información personal 
+                estas regalando datos, si en verdad estas interesado usar el navegador Tor obviamente es para entrar en paginas tipo “onion” o paginas que estén bloqueadas en tu país o continente.</p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  < Modal 2 -->
+  <!--div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Bitchute: ¿Una nueva alternativa?</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/bitchute.jpg" alt="">
+                <p>El ámbito de esta disciplina es tan amplio que se abordan problemas tan dispares como pueden ser el diseño de una simple Web de promoción de una empresa, una aplicación que de el soporte al trabajo diario de gestión de una organización, o el desarrollo del software de control de un misil en tiempo real. Por este motivo, las prácticas que aplican en un determinado ámbito no tienen por qué ser de aplicación en el resto, sí bien hay una serie de principios comunes que si pueden ser adaptados a prácticas concretas para cada situación. </p>
+                <ul class="list-inline">
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 3 -->
+  <!--div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Reseña Internauta: RetroAchievements.org</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/retro.jpg" alt="">
+                <p>También conocidos como paradigmas, son abstracciones que si bien no describen detalladamente el proceso a seguir para el desarrollo software, representan diferentes estrategias o enfoques para abordar este problema: </p>
+                <p>“Una descripción simplificada de un proceso del software que presenta una visión de ese proceso. Estos modelos pueden incluir actividades que son parte de los procesos y productos de software y las personas involucradas en la ingeniería del software.”</p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 4 -->
+  <!--<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">¿Metodologías?</h2>
+               <img class="img-fluid d-block mx-auto" src="img/portfolio/metodologia.png" alt="">
+                <p>Las metodologías deben dar forma y detalle al proceso de desarrollo software y, adicionalmente, proporcionar un conjunto de prácticas y técnicas recomendadas, así como guías de adaptación a los distintos proyectos.</p>
+                <ul class="list-inline">
+                  <li> Metodologías tradicionales: Son aquellas caracterizadas por una fuerte planificación durante todo el proceso de desarrollo y por realizar una intensa etapa de análisis y diseño antes de la construcción del sistema</li>
+                  <br>
+                  <li>Metodologías Ágiles:  surgen como respuesta a la dificultad de la aplicación práctica y efectiva de las metodologías tradicionales, para determinados proyectos.</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 5 -->
+  <!--<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">¿Cuáles son los Principales roles en SCRUM?</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/roles.jpg" alt="">
+               <h5>En esta metodología destacan principalmente el papel jugado por los siguientes roles:</h5>
+                <ul class="list-inline">
+                  <li>Dueño de producto (DP): es responsable de maximizar el retorno de inversión (ROI) del producto, entendido como los elementos de más valor de negocio y menos coste. </li>
+                  <li>Equipo: su papel principal es construir el producto. Dispone de todas las competencias y habilidades para entregar el producto (multifuncional) y goza de una elevada autonomía y responsabilidad (auto-gestionado), teniendo capacidad para decidir sus compromisos y cómo solventarlos.</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 6 -->
+  <!--<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+             <h2 class="text-uppercase">¿Cuáles son las Fases de la Ingeniería de Software?</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/fases.png" alt="">
+                <ul class="list-inline">
+                  <li>Fase de inicio: Es la fase de menor duración del proyecto. </li>
+                  <br>
+                  <li>Fase de elaboración: Los dos objetivos fundamentales de esta fase serán abordar los factores de riesgo identificados en la fase anterior y establecer y validar una arquitectura del sistema. </li>
+                  <br>
+                  <li>Fase de construcción: Sobre la arquitectura de base, se irá construyendo el sistema en una serie de iteraciones cortas.</li>
+                  <br>
+                  <li>Fase de transición: En la fase final el sistema se despliega y se pone a disposición de los usuarios. </li>
+                  <br>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
+</body>
+</html>
